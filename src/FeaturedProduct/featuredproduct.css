@@ -3,10 +3,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  max-height: 200px;
 }
 
 .mainproduct h1 {
   font-size: 120px;
+  min-width: 230px;
 }
 
 .sideproducts ul {
