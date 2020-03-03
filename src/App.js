@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ProductCarousel from "./ProductCarousel/ProductCarousel"
+import FeaturedProduct from "./FeaturedProduct/FeaturedProduct"
 
 class App extends Component {
   constructor() {
@@ -20,7 +21,8 @@ class App extends Component {
       <div className="App">
         <h1>{this.state.title}</h1>
         <input type="text" onChange={this.changeTitleHandler} value={this.state.title} placeholder="say something"/>
-        <ProductCarousel />
+        <FeaturedProduct/>
+        <ProductCarousel/>
       </div>
     );
   }

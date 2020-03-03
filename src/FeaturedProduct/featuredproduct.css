@@ -1,0 +1,23 @@
+.featuredcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainproduct h1 {
+  font-size: 120px;
+}
+
+.sideproducts ul {
+  list-style-type: none;
+}
+
+.sideproducts li {
+  margin: 10px;
+}
+
+.sideproducts li:hover {
+  background-color: red;
+  cursor: pointer;
+}
