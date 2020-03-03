@@ -1,0 +1,11 @@
+.carouselitem {
+    margin: 8px;
+    min-width: 50px;
+    border-radius: 100px;
+    background-color: yellow;
+}
+
+.carouselitem:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}

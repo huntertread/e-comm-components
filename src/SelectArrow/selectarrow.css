@@ -1,0 +1,10 @@
+.selectarrow {
+    margin: auto 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.selectarrow:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
