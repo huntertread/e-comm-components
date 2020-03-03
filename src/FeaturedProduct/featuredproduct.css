@@ -3,10 +3,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* flex-wrap: wrap; */
+  max-height: 200px;
 }
 
 .mainproduct h1 {
   font-size: 120px;
+  min-width: 230px;
 }
 
 .sideproducts ul {
@@ -20,4 +23,31 @@
 .sideproducts li:hover {
   background-color: red;
   cursor: pointer;
+}
+
+.featuredSelect-appear {
+  opacity: 0.01;
+}
+
+.featuredSelect-appear.featuredSelect-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.featuredSelect-enter {
+  opacity: 0.01;
+}
+
+.featuredSelect-enter.featuredSelect-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.featuredSelect-leave {
+  opacity: 1;
+}
+
+.featuredSelect-leave.featuredSelect-leave-active {
+  opacity: 0.01;
+  transition: opacity 0ms ease-in;
 }
