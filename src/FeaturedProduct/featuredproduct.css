@@ -44,7 +44,7 @@
 }
 
 .featuredSelect-leave {
-  opacity: 1;
+  opacity: 0;
 }
 
 .featuredSelect-leave.featuredSelect-leave-active {
