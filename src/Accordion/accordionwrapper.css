@@ -1,0 +1,26 @@
+.accordionwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 380px;
+    margin: auto;
+}
+
+.accordionheader:hover {
+    cursor: pointer;
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.accordionheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.accordionbody {
+    max-width: 380px;
+    margin: 5px;
+}
