@@ -1,0 +1,9 @@
+.accordionwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    max-width: 380px;
+    margin: auto;
+}
