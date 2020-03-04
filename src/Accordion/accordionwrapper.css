@@ -8,6 +8,8 @@
 
 .accordionheader:hover {
     cursor: pointer;
+    color: red;
+    border-bottom: 1px solid red;
 }
 
 .accordionheader {
