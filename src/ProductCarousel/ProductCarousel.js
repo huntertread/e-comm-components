@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
-import CarouselItem from '../CarouselItem/CarouselItem'
-import SelectArrow from '../SelectArrow/SelectArrow'
+import CarouselItem from './CarouselItem/CarouselItem'
+import SelectArrow from './SelectArrow/SelectArrow'
 import sampleData from '../sampledata'
 import './productcarousel.css'
 
