@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react'
+import GridwallItem from './GridwallItem/GridwallItem'
+import sampledata from '../sampledata'
+import './gridwall.css'
 
-const Gridwall = () => {
-  return(
-    <div className="gridwall">
-      <p>gridwall placeholder</p>
-    </div>
-  )
+class Gridwall extends Component {
+  constructor() {
+    super()
+    this.state = {
+      products: sampledata
+    }
+  }
+  render() {
+    return(
+      <div className="gridwall">
+        {this.state.products.map((product, i) => (
+          <GridwallItem product={product} key={i} />
+        ))}
+      </div>
+    )
+  }
 }
 
 export default Gridwall

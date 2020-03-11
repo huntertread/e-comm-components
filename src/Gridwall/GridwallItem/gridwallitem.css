@@ -1,0 +1,9 @@
+.gridwall-item {
+  margin: 15px;
+  width: 100px;
+}
+
+.gridwall-item:hover {
+  color: red;
+  cursor: pointer;
+}
