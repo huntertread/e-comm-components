@@ -1,49 +1,48 @@
 const sampleData = [
   {
-    name: '',
+    name: 'sassy',
     age: ';P',
     sign: ''
   },
   {
-    name: '',
+    name: 'surprised',
     age: '8^o',
     sign: ''
   },
   {
-    name: '',
+    name: 'buck',
     age: ':B',
     sign: ''
   },
   {
-    name: '',
+    name: 'happy',
     age: ':)',
     sign: ''
   },
   {
-    name: '',
+    name: 'wat',
     age: ':^[',
     sign: ''
   },
   {
-    name: '',
+    name: 'angry',
     age: '>:(',
     sign: ''
   },
   {
-    name: '',
+    name: 'bull',
     age: '}:D',
     sign: ''
   },
   {
-    name: '',
+    name: 'mischevious',
     age: '>:D',
     sign: ''
   },
   {
-    name: '',
+    name: 'nerp',
     age: '%)',
     sign: ''
   }
 ]
-
 export default sampleData
