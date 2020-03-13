@@ -2,11 +2,16 @@
     margin: 8px;
     min-width: 50px;
     border-radius: 100px;
-    background-color: yellow;
+    background-color:#E0E5EC;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
 }
 
 .carouselitem:hover {
     cursor: pointer;
-    transform: scale(1.5);
-    background-color: pink;
+    /* transform: scale(1.5);
+    background-color: pink; */
+    box-shadow: 
+    inset 7px 7px 15px rgba(55, 84, 170,.15),
+    inset -7px -7px 20px rgba(255, 255, 255,1),
+    0px 0px 4px rgba(255, 255, 255,.2);
 }

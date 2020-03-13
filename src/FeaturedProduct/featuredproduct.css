@@ -10,6 +10,16 @@
 .mainproduct h1 {
   font-size: 120px;
   min-width: 230px;
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+  border-radius: 8px;
+}
+
+.mainproduct h1:hover {
+  box-shadow: 
+  inset 7px 7px 15px rgba(55, 84, 170,.15),
+  inset -7px -7px 20px rgba(255, 255, 255,1),
+  0px 0px 4px rgba(255, 255, 255,.2);
 }
 
 .sideproducts ul {
@@ -18,11 +28,17 @@
 
 .sideproducts li {
   margin: 10px;
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+  border-radius: 5px;
 }
 
 .sideproducts li:hover {
-  background-color: red;
   cursor: pointer;
+  box-shadow: 
+  inset 7px 7px 15px rgba(55, 84, 170,.15),
+  inset -7px -7px 20px rgba(255, 255, 255,1),
+  0px 0px 4px rgba(255, 255, 255,.2);
 }
 
 .featuredSelect-appear {
