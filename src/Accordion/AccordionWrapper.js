@@ -25,11 +25,7 @@ const AccordionWrapper = (props) => {
         </div>
         <div className="accordionbody">
           <p>
-            ooooooooooooooooooooooooooooo
-            ooooooooooooooooooooooooooooo
-            ooooooooooooooooooooooooooooo
-            ooooooooooooooooooooooooooooo
-            ooooooooooooooooooooooooooooo
+            {props.accordionBody}
           </p>
         </div>
       </div>

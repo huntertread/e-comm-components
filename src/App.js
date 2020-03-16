@@ -10,9 +10,9 @@ const App = () => {
     <div className="App">
       <FeaturedProduct/>
       <ProductCarousel/>
-      <AccordionWrapper containerName={"click me to expand!"} />
-      <AccordionWrapper containerName={"also click me!"} />
-      <AccordionWrapper containerName={"click me! click me!"} />
+      <AccordionWrapper containerName={"click me to expand!"} accordionBody={"some text here"} />
+      <AccordionWrapper containerName={"also click me!"} accordionBody={"some more text here"}/>
+      <AccordionWrapper containerName={"click me! click me!"} accordionBody={"and some other text here"}/>
       <Gridwall />
     </div>
   );
